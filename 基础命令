@@ -1,3 +1,4 @@
+ncl区分大小写
 激活ncl： source activate ncl_shining
 使用ncl：
   source activate ncl_shining
@@ -6,3 +7,5 @@
 查看nc文件： ncdump -h /mnt/d/ncl/data/m2d.19790101_20201231.nc
 
 转存nc文件：ncdump -h hgt.2020.nc > hgt.2020.txt
+
+输出变量信息： printVarSummary(variable)
